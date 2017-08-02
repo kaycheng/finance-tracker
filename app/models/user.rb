@@ -26,4 +26,8 @@ class User < ActiveRecord::Base
     return "#{first_name} #{last_name}".strip if (first_name || last_name)
     "Anonymous"
   end
+  
+  def my_friends
+    
+  end
 end
